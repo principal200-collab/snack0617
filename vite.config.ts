@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // 👇 請加入這行，並替換成您的 Repository 名稱。前後必須有斜線。
+    base: '/snake0617/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
